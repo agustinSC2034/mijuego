@@ -7,14 +7,12 @@ export const styles = StyleSheet.create({
     height: 60,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#EE4266',
-    borderWidth: 2,
-    borderRadius: 5,
+    backgroundColor: 'white',
     marginVertical: 10,
   },
   number: {
-    fontSize: 20,
+    fontSize: 40,
     fontWeight: 'bold',
-    color: theme.colors.white,
+    color: theme.colors.black,
   },
 });
