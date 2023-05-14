@@ -4,7 +4,7 @@ import { theme } from '../../constants';
 export const styles = StyleSheet.create({
   container: {
     height: 80,
-    backgroundColor: theme.colors.primary,
+    backgroundColor: '#EE4266',
     marginTop: 30,
     justifyContent: 'center',
     alignItems: 'center',

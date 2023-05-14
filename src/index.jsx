@@ -30,7 +30,7 @@ export default function App() {
     );
   }
 
-  const headerTitle = userNumber ? 'Game' : 'Welcome';
+  const headerTitle = userNumber ? 'Game' : 'Bienvenido!';
 
   const onStartGame = (number) => {
     setUserNumber(number);

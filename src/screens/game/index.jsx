@@ -59,12 +59,12 @@ const Game = ({ userNumber, onGameOver }) => {
         <View style={styles.buttonContainer}>
           <Button
             title="Menor que"
-            color={theme.colors.primary}
+            color={'#EE4266'}
             onPress={() => onHandlerNextGuess('lower')}
           />
           <Button
             title="Mayor que"
-            color={theme.colors.primary}
+            color={'#EE4266'}
             onPress={() => onHandlerNextGuess('greater')}
           />
         </View>

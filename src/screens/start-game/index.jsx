@@ -83,11 +83,11 @@ const StartGame = ({ onStartGame }) => {
                 value={numberOption}
               />
               <View style={styles.buttonContainer}>
-                <Button title="Reiniciar" onPress={onHandlerReset} color={theme.colors.secondary} />
+                <Button title="Reiniciar" onPress={onHandlerReset} color={'#EE4266'} />
                 <Button
                   title="Confirmar"
                   onPress={onHandlerConfirm}
-                  color={theme.colors.primary}
+                  color={'#0EAD69'}
                   disabled={numberOption === ''}
                 />
               </View>
